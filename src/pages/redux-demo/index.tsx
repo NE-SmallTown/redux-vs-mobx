@@ -144,7 +144,7 @@ const ReduxNode = connect((store, props) => {
                                         {/* TODO 上面是完全无敌究极理想情况。。。实际上很可能 ReduxNode 会接收一个非原语类型的 prop */}
                                         {/* 比如下面这样。。。。我们可以看看效果 */}
                                         {/* @ts-ignore */}
-                                        {/*<ReduxNode id={ child.id } whatEver={ {} } />*/}
+                                        {/*<ReduxNode id={ child.id } style={{ color: 'red' }} />*/}
                                     </div>
                                 )
                             })

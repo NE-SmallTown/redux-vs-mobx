@@ -126,7 +126,7 @@ const MobxNode = observer(props => {
 
                                         {/* TODO 再来看看 🐂🍺 的 Mobx */}
                                         {/* @ts-ignore */}
-                                        {/*<MobxNode id={ child.id } whatEver={ {} } />*/}
+                                        {/*<MobxNode id={ child.id } style={{ color: 'red' }} />*/}
                                     </div>
                                 )
                             })
