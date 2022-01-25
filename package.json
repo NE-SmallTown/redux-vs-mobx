@@ -1,0 +1,26 @@
+{
+  "name": "redux-vs-mobx",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "immer": "^9.0.7",
+    "lodash.get": "^4.4.2",
+    "mobx": "^6.3.2",
+    "mobx-react-lite": "^3.2.2",
+    "mobx-state-tree": "^5.0.1",
+    "next": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "reselect": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.7",
+    "typescript": "^4.2.4"
+  }
+}
