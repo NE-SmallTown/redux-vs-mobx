@@ -1,6 +1,6 @@
-# redux-vs-mobx
+# Redux-vs-Mobx
 
-A small demo to show the difference between Redux and Mobx.
+A demo showing the core difference between Redux and Mobx.
 
 ## Online Demo
 
@@ -10,4 +10,8 @@ https://ne-smalltown.github.io/redux-vs-mobx
 
 `npm run dev`
 
-如果想要查看传 object prop 的情况，编辑 `mobx-demo/index.js` 或者 `redux-demo/index.js` 打开注释代码即可。
+If you want to see what will happen when you pass an object as a prop, please edit the `mobx-demo/index.js` or `redux-demo/index.js` by uncommenting.
+
+## More explanation
+
+See https://zhuanlan.zhihu.com/p/461844358 for more details.
